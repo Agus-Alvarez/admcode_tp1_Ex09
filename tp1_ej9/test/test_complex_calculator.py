@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..')))
 
 # calculator_package/test/test_complex_calculator.py
-from calculator_package.calculator.complex_calculator import SimpleComplexCalculator
+from tp1_ej9.calculator.complex_calculator import SimpleComplexCalculator
 
 class TestSimpleComplexCalculator(unittest.TestCase):
     """
